@@ -1,0 +1,22 @@
+{
+    "name": "waheed/laravel-fcm-push-notifications",
+    "description": "Laravel Firebase Cloud Messaging (FCM) allows seamless integration of push notifications into Laravel applications, enabling real-time communication with users across various platforms. It simplifies the process of sending notifications to mobile devices and web browsers using Firebase's powerful messaging platform.",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Waheed\\LaravelFcmPushNotifications\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdul Waheed",
+            "email": "waheedbajeed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0",
+        "illuminate/notifications": "^7.0|^8.0|^9.0|^10.0"
+    }
+}
